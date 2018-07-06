@@ -184,6 +184,7 @@ header {
 .add-ride-img {
     width: 554px;
     height: 320px;
+    background-image: url("https://d1ovtcjitiy70m.cloudfront.net/vi-1/images/rebranding/homeblock_driver_desktop.jpg")
 }
 
 .add-ride-img>img {
@@ -445,7 +446,7 @@ header {
     vertical-align: top;
 }
 .blog-article:nth-child(2) {
-margin: 0 12px;
+    margin: 0 12px;
 }
 .blog-article img {
     height: 319px;
@@ -571,3 +572,78 @@ footer {
 }
 
 /*media section end*/
+/*responsive 1024px (bp1) start*/
+@media (max-width: 1024px) {
+    .search-panel-content, .search-panel, .search-panel-buttons, .add-ride, .offer, .advantages-div, .blog-section, .shortcuts-section, .page-footer {
+        width: 750px;
+    }
+    .search-panel {
+        top: 300px;
+    }
+    .search-panel-buttons>input {
+        position: relative;
+        right: 261px;
+        margin-top: 10px;
+    }
+    .add-ride-wrapper, .ride-description-content {
+        width: 750px;
+        margin: 0 auto;
+    }
+    .add-ride-img {
+        width: 410px;
+        display: inline-block;
+    }
+    .add-ride-text {
+        width: 287px;
+        display: inline-block;
+    }
+    .add-ride-text-content {
+        text-align: center;
+    }
+    .add-ride-text-content a {
+        margin: 0 auto;
+    }
+    .popular-offer-examples, .popular-offer-examples:nth-child(2) {
+        width: 250px;
+        margin: 10px auto;
+    }
+    .ride-description, .media-column {
+        width: 100%;
+    }
+    .description-content {
+        width: 220px;
+    }
+    .advantages {
+        width: 247px;
+    }
+    .blog-article, .blog-article img {
+        width: 237px;
+    }
+    .shortcuts-columns {
+        display: flex;
+        justify-content: space-between;
+    }
+    .media-column {
+        float: none;
+        text-align: left;
+        max-width: 100%;
+    }
+    .store {
+        float: none;
+        display: inline;
+        margin-right: 99px;
+    }
+    .language-button, .media-buttons, .clear-fix {
+        display: inline-block;
+    }
+    .language-button {
+        vertical-align: text-bottom;
+    }
+    .media-buttons {
+        vertical-align: top;
+    }
+    .copyrights {
+        display: block;
+    }
+}
+/*responsive 1024px (bp1) end*/
